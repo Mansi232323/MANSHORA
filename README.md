@@ -1,94 +1,102 @@
 <div align="center">
-  
-# DIGIMANSHORA
 
-### Insight Engineered for Impact
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=7C3AED&center=true&vCenter=true&width=700&lines=MANSHORA;Insight+Engineered+for+Impact;Analyze.+Understand.+Predict.+Act." alt="MANSHORA typing banner" />
 
 **From Financial Data to Intelligent Decisions**
 
-`Analyze` → `Understand` → `Predict` → `Act`
+![SBI x GFF 2026](https://img.shields.io/badge/SBI%20%C3%97%20GFF-2026-1d4ed8?style=for-the-badge)
+![Theme](https://img.shields.io/badge/Theme%202-Digital%20Adoption-06b6d4?style=for-the-badge)
+![Modules](https://img.shields.io/badge/Modules-14-7c3aed?style=for-the-badge)
+![Agents](https://img.shields.io/badge/AI%20Council-14%20Agents-a855f7?style=for-the-badge)
 
-*Built for SBI × Global Fintech Fest 2026 · Theme 2: Digital Adoption*
-*Evolved from **DigiMentor AI 3.0***
+![HTML](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white)
+![No Backend](https://img.shields.io/badge/Runs-100%25%20in%20Browser-22c55e)
+![Data](https://img.shields.io/badge/Fake%20Data-None-ef4444)
 
-**Created by Mansi Kushwaha × Sheetal**
+[**Overview**](#-overview) · [**Journey**](#-our-journey) · [**Problem**](#-the-problem) · [**Ecosystem**](#-product-ecosystem) · [**Features**](#-feature-deep-dive-click-to-expand) · [**Tech**](#-technology-stack) · [**Roadmap**](#-roadmap-manshora-20) · [**Demo**](#-project-demonstration)
+
+*Created by **Mansi Kushwaha** × **Sheetal** · Evolved from **DigiMentor AI 3.0***
 
 </div>
 
 ---
 
-## Table of Contents
+## 🧭 Overview
 
-- [Overview](#overview)
-- [Our Journey](#our-journey)
-- [The Problem](#the-problem)
-- [The Solution](#the-solution)
-- [Product Ecosystem (14 Modules)](#product-ecosystem-14-modules)
-- [Trust by Design: No Fake Data](#trust-by-design-no-fake-data)
-- [Feature Deep Dive](#feature-deep-dive)
-  - [Monthly Financial Memory](#1-monthly-financial-memory)
-  - [Financial Health Dashboard](#2-financial-health-dashboard)
-  - [Financial DNA & Digital Twin](#3-financial-dna--digital-twin)
-  - [AI Council](#4-ai-council)
-  - [Digital Adoption Intelligence](#5-digital-adoption-intelligence)
-  - [Life Events & Next-Best-Action](#6-life-events--next-best-action)
-  - [AI Chatbot, Voice & Financial Coach](#7-ai-chatbot-voice--financial-coach)
-  - [Simulation Lab & Financial Planner](#8-simulation-lab--financial-planner)
-  - [Scam Protection](#9-scam-protection)
-  - [Camera Banking](#10-camera-banking)
-  - [Bank Manager & Executive Intelligence](#11-bank-manager--executive-intelligence)
-- [Technology Stack](#technology-stack)
-- [Formulas Used](#formulas-used)
-- [Current Limitations](#current-limitations)
-- [Roadmap: MANSHORA 2.0](#roadmap-manshora-20)
-- [Project Demonstration](#project-demonstration)
-- [Disclaimer](#disclaimer)
-- [Authors](#authors)
+**MANSHORA** is a financial intelligence platform that turns raw financial data into clear understanding and concrete next steps. One intelligence layer serves both **customers** and **banks**, and it runs entirely in the browser with no backend.
 
----
+```mermaid
+flowchart LR
+    A[📥 DATA] --> B[🔍 ANALYZE] --> C[💡 UNDERSTAND] --> D[🔮 PREDICT] --> E[🎯 ACT]
+    style A fill:#7c3aed,color:#fff,stroke:none
+    style B fill:#6d28d9,color:#fff,stroke:none
+    style C fill:#5b21b6,color:#fff,stroke:none
+    style D fill:#0891b2,color:#fff,stroke:none
+    style E fill:#06b6d4,color:#fff,stroke:none
+```
 
-## Overview
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**MANSHORA** is a financial intelligence platform that turns raw financial data into clear understanding and concrete next steps. It serves two audiences from a single intelligence layer:
+### 👤 For Customers
+- Financial health score
+- Monthly financial tracking
+- AI-style insights
+- Simulations and goal planning
+- Digital adoption analysis
+- Financial chatbot
+- Life-event signals
 
-| For Customers | For Banks / Managers |
-|---|---|
-| Financial health score | Customer segmentation |
-| Monthly financial tracking | Digital adoption analysis |
-| AI-style insights | Risk signals |
-| Simulations | Product opportunities |
-| Goal planning | Investment / insurance opportunities |
-| Digital adoption analysis | Campaign monitoring |
-| Financial chatbot | Executive intelligence |
-| Life-event signals | |
+</td>
+<td width="50%" valign="top">
 
-The whole product runs **entirely in the browser** (HTML + CSS + JavaScript), with no backend and no database in its current form.
+### 🏦 For Banks / Managers
+- Customer segmentation
+- Digital adoption analysis
+- Risk signals
+- Product opportunities
+- Investment / insurance opportunities
+- Campaign monitoring
+- Executive intelligence
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Our Journey
+## 🛤️ Our Journey
 
-MANSHORA did not start as a product. It started as a hackathon idea.
-
-| Step | Milestone | Detail |
-|---|---|---|
-| 1 | **SBI × GFF 2026** | Hackathon by SBI × Global Fintech Fest |
-| 2 | **Digital Adoption Theme** | Theme 2 · Agentic AI & Emerging Tech |
-| 3 | **5,000-Customer Prototype** | 5,000 customer records worked on in Google Colab |
-| 4 | **DigiMentor AI 3.0** | Streamlit-based AI banking prototype |
-| 5 | **Idea-Phase Submission** | Concept, prototype and demo video |
-| 6 | **Beyond the Hackathon** | Development continued independently |
-| 7 | **MANSHORA** | A broader financial intelligence platform |
+```mermaid
+timeline
+    title From Hackathon Idea to Fintech Product
+    section Hackathon
+        SBI × GFF 2026 : Theme 2, Agentic AI & Emerging Tech
+        Prototype : 5,000 customer records in Google Colab
+        DigiMentor AI 3.0 : Streamlit-based AI banking prototype
+        Submission : Concept, prototype and demo video
+    section Beyond
+        Independent development : Did not stop at the idea phase
+        MANSHORA : Broader financial intelligence platform
+```
 
 > We chose not to stop at the idea phase. We used the prototype as a foundation and expanded it into a broader financial intelligence platform.
 
 ---
 
-## The Problem
+## ⚠️ The Problem
 
 **Financial data exists. Financial understanding doesn't.**
 
-**Customers** struggle to answer questions like:
+<details>
+<summary><b>👤 Customer problem</b> (click to expand)</summary>
+<br>
+
+People often struggle to answer:
 
 - Am I saving enough?
 - Can I afford a loan?
@@ -97,7 +105,15 @@ MANSHORA did not start as a product. It started as a hackathon idea.
 - How well am I using digital banking?
 - What financial goal should I prioritize?
 
-**Banks** hold data but need better ways to identify:
+**Result:** fragmented financial information.
+
+</details>
+
+<details>
+<summary><b>🏦 Banking problem</b> (click to expand)</summary>
+<br>
+
+Banks hold data but need better ways to identify:
 
 - Digital adoption gaps
 - Customer segments
@@ -106,224 +122,263 @@ MANSHORA did not start as a product. It started as a hackathon idea.
 - Financial risk signals
 - Next-best actions
 
-The result is *fragmented financial information* for the customer and *fragmented customer signals* for the bank. **The missing layer is intelligence.**
+**Result:** fragmented customer signals.
+
+</details>
+
+> **The missing layer is intelligence.**
 
 ---
 
-## The Solution
+## 🧩 Product Ecosystem
 
-MANSHORA is one intelligence layer connecting customers and banks through a single flow:
-
+```mermaid
+mindmap
+  root((MANSHORA<br/>Intelligence Layer))
+    Customer-facing
+      Customer Hub
+      Financial Health
+      Financial DNA
+      AI Chatbot
+      Life Events
+      Simulation Lab
+      Planner
+      Loan Advisor
+      Scam Protection
+      Camera Banking
+      Digital Adoption
+    Bank-facing
+      AI Council
+      Manager Dashboard
+      Executive Intelligence
 ```
-DATA  →  ANALYZE  →  UNDERSTAND  →  PREDICT  →  ACT
-```
 
 ---
 
-## Product Ecosystem (14 Modules)
+## 🔒 Trust by Design
 
-Fourteen modules sit around one intelligence layer.
+> **One rule we never break: no fake data.**
 
-**Customer-facing**
-
-| Module | Purpose |
+| ✅ We do | ❌ We never |
 |---|---|
-| Customer Hub | Searchable customer profiles (by name, ID or city) |
-| Financial Health | Health score and 9 KPIs |
-| Financial DNA | Multidimensional customer profile |
-| AI Chatbot | Multilingual rule-based assistant |
-| Life Events | Estimated life-event signals |
-| Simulation Lab | Scenario comparison and live recalculation |
-| Planner | SIP, goals, retirement, emergency fund, salary hike |
-| Loan Advisor | EMI affordability guidance |
-| Scam Protection | Pattern-based message scan |
-| Camera Banking | In-browser document photo checks |
-| Digital Adoption | Adoption score, gaps, 30-day action plan |
+| Calculate insights from available inputs | Invent customer numbers |
+| Show missing info as **"Not Provided"** | Hard-code financial outcomes |
+| Label every simulated output | Present simulations as facts |
+| Frame recommendations as educational | Promise guaranteed advice |
 
-**Bank-facing**
+**Real user input** (income, expenses, savings, investments, EMI, goals, digital banking usage) → **calculated insights** (health score, savings rate, DTI, net worth, digital adoption score).
 
-| Module | Purpose |
-|---|---|
-| AI Council | 14 specialist agents with a synthesis |
-| Manager Dashboard | Segmentation, finders and opportunities |
-| Executive Intelligence | Predictions, revenue opportunity, campaign tracking |
+*Transparency is a feature.*
 
 ---
 
-## Trust by Design: No Fake Data
+## 🔬 Feature Deep Dive (click to expand)
 
-**One rule we never break: no fake data.**
+<details>
+<summary><b>📅 1. Monthly Financial Memory</b></summary>
+<br>
 
-- No invented customer numbers
-- No hard-coded financial outcomes
-- Insights are calculated only from available inputs
-- Missing information is shown explicitly as **"Not Provided"**
-- Simulated outputs are clearly labelled
-- Recommendations are educational, not guaranteed advice
-
-**Real user input** (income, expenses, savings, investments, EMI, goals, digital banking usage) feeds **calculated insights** (health score, savings rate, DTI, net worth, digital adoption score).
-
-MANSHORA ships with no demo or invented customer data. Every number comes from what a user entered.
-
-> Transparency is a feature.
-
----
-
-## Feature Deep Dive
-
-### 1. Monthly Financial Memory
-
-Your financial story, month by month (January → December).
+Your financial story, month by month (Jan → Dec).
 
 - Each month stores **income, expenses, EMI, savings and investments**
-- Users add only the new month each time; earlier months are **retained, never overwritten**
-- Monthly history powers trends, KPIs, forecasts and recommendations
-- Forecasts use **linear regression** on the saved history (implemented)
+- Users add only the new month; earlier months are **retained, never overwritten**
+- History powers trends, KPIs, forecasts and recommendations
+- Forecasts use **linear regression** on saved history
 
-### 2. Financial Health Dashboard
+</details>
 
-A 100-point **Financial Health Score** with 9 KPIs, all computed from user-entered data.
+<details>
+<summary><b>💯 2. Financial Health Dashboard</b></summary>
+<br>
 
-| Component | Points |
-|---|---|
-| Savings rate | 35 |
-| Low DTI | 25 |
-| Emergency fund | 25 |
-| Investments | 15 |
-| **Total** | **100** |
+A 100-point **Health Score** built from user-entered data.
 
-**KPIs:** Health Score · Income · Expenses · DTI · Savings · Savings Rate · Investments · Outstanding Loans · Net Worth · Digital Adoption
+```mermaid
+pie showData title Health Score Weights (100 points)
+    "Savings rate" : 35
+    "Low DTI" : 25
+    "Emergency fund" : 25
+    "Investments" : 15
+```
 
-### 3. Financial DNA & Digital Twin
+**9 KPIs:** Health Score · Income · Expenses · DTI · Savings · Savings Rate · Investments · Outstanding Loans · Net Worth (plus Digital Adoption)
 
-Understand the customer beyond a single number.
+</details>
 
-- A six-dimension profile: **Saver · Investor · Borrower · Digital User · Protector · Planner**
-- **Risk appetite** level per customer (Conservative / Moderate / Aggressive), derived from their profile
-- **Digital adoption gaps** flagged across UPI, Mobile Banking and Internet Banking where usage is missing or low
+<details>
+<summary><b>🧬 3. Financial DNA & Digital Twin</b></summary>
+<br>
+
+A multidimensional profile instead of isolated metrics.
+
+- Six dimensions: **Saver · Investor · Borrower · Digital User · Protector · Planner**
+- **Risk appetite** per customer: Conservative / Moderate / Aggressive
+- **Digital adoption gaps** flagged across UPI, Mobile Banking and Internet Banking
 - Searchable in the Customer Hub by name, ID or city
 
-### 4. AI Council
+</details>
 
-**14 specialist agents. One council synthesis.**
+<details>
+<summary><b>🤖 4. AI Council: 14 agents, one synthesis</b></summary>
+<br>
 
-| | | | |
-|---|---|---|---|
-| Financial Analyst | Risk | Investment | Loan |
-| Engagement | Digital Adoption | Behavior | Insurance |
-| Fraud | Life Event | Wellness | Recommendation |
-| Next Best Action | Product Recommendation | | |
+```mermaid
+flowchart TB
+    subgraph Agents
+    direction LR
+    a1[Financial Analyst]
+    a2[Risk]
+    a3[Investment]
+    a4[Loan]
+    a5[Engagement]
+    a6[Digital Adoption]
+    a7[Behavior]
+    a8[Insurance]
+    a9[Fraud]
+    a10[Life Event]
+    a11[Wellness]
+    a12[Recommendation]
+    a13[Next Best Action]
+    a14[Product Recommendation]
+    end
+    Agents --> S{{Council Synthesis}}
+    S --> o1[Overall Health]
+    S --> o2[Biggest Opportunity]
+    S --> o3[Biggest Risk]
+    S --> o4[Next Action]
+```
 
-Each agent returns a **Status**, **Recommendation**, **Confidence** and **Reason**. The council then synthesizes four outputs: **Overall Health, Biggest Opportunity, Biggest Risk, Next Action.**
+Each agent returns **Status · Recommendation · Confidence · Reason**.
 
-> The current implementation uses rule-based logic and heuristics. It does not expose hidden chain-of-thought or claim autonomous LLM reasoning.
+> Rule-based logic and heuristics only. It does not expose hidden chain-of-thought or claim autonomous LLM reasoning.
 
-### 5. Digital Adoption Intelligence
+</details>
 
-Directly tied to SBI GFF Theme 2 (payments, investments, insurance and mobile banking).
+<details>
+<summary><b>📱 5. Digital Adoption Intelligence</b></summary>
+<br>
 
-- **Digital Adoption Score (0–100)**, calculated from user input on UPI usage, mobile banking and internet banking
-- **Gaps** identified from missing or low usage
-- **30-Day Action Plan**
-- **Personalized Nudges**
-- **Potential Next Products**
+Tied directly to SBI GFF Theme 2.
 
-> Don't just measure adoption. Identify the next digital action.
+- **Digital Adoption Score (0–100)** from UPI, mobile banking and internet banking usage
+- **Gaps** from missing or low usage
+- **30-Day Action Plan**, **Personalized Nudges**, **Potential Next Products**
 
-### 6. Life Events & Next-Best-Action
+> *Don't just measure adoption. Identify the next digital action.*
 
-Detect signals before they become decisions.
+</details>
 
-**Signals covered:** Salary Hike · New Job · Marriage · Home Purchase · Travel · Education · Retirement Readiness
+<details>
+<summary><b>🎉 6. Life Events & Next-Best-Action</b></summary>
+<br>
 
-**Flow:** Financial change + stated goal → Signal detection → Estimated life event → Relevant financial action
+**Signals:** Salary Hike · New Job · Marriage · Home Purchase · Travel · Education · Retirement Readiness
 
-**Example next-best-actions** (educational, no guaranteed outcomes):
+`Financial change + stated goal` → `Signal detection` → `Estimated life event` → `Relevant action`
 
-| Signal | Suggested Action |
+| Signal | Suggested action |
 |---|---|
 | Salary hike | Review whether to raise your monthly SIP |
 | Home purchase goal | Check EMI affordability in the Simulation Lab |
 | Retirement readiness | Explore the Retirement Simulator |
 
-> Life-event outputs are **estimated signals, not confirmed life events.**
+> Estimated signals only, not confirmed life events.
 
-### 7. AI Chatbot, Voice & Financial Coach
+</details>
 
-*Ask your money. Get an action plan.*
+<details>
+<summary><b>💬 7. AI Chatbot, Voice & Financial Coach</b></summary>
+<br>
 
-- **Languages:** English, Hindi (हिंदी), Tamil (தமிழ்); answers follow the chosen language
-- **Voice:** voice input and spoken replies via the browser **Web Speech API**
-- **Four-part answers:** Explanation → Calculation → Recommendation → Action Plan
-- Example questions: *"How can I save more?"*, *"Can I afford a ₹10 lakh car?"*
-- **Works offline**, because it is rule-based
+- **Languages:** English · हिंदी · தமிழ்
+- **Voice** input and spoken replies (browser Web Speech API)
+- **Works offline** because it is rule-based
+- Every answer has four parts:
 
-> The current chatbot is a local rule-based assistant, not a connected large language model.
+```mermaid
+flowchart LR
+    Q[❓ Your question] --> E[1 Explanation] --> C[2 Calculation] --> R[3 Recommendation] --> A[4 Action Plan]
+```
 
-### 8. Simulation Lab & Financial Planner
+Try: *"How can I save more?"* · *"Can I afford a ₹10 lakh car?"*
+
+> A local rule-based assistant, not a connected LLM.
+
+</details>
+
+<details>
+<summary><b>🧪 8. Simulation Lab & Financial Planner</b></summary>
+<br>
 
 *Don't guess. Simulate.*
 
-**Scenario comparison**
-
 | Scenario | Extra SIP |
 |---|---|
-| A: No extra investment | ₹0 / month |
-| B: Extra SIP | ₹5,000 / month |
-| C: Extra SIP | ₹10,000 / month |
+| A | ₹0 / month |
+| B | ₹5,000 / month |
+| C | ₹10,000 / month |
 
-**Live recalculation** of EMI, total interest and emergency fund coverage as inputs change.
+- **Live recalculation:** EMI, total interest, emergency fund coverage
+- **Planner modules:** SIP Calculator · Wealth Forecast · Goal Planning · Retirement Simulator · Emergency Fund · Salary Hike Simulator
 
-**Planner modules:** SIP Calculator · Wealth Forecast · Goal Planning · Retirement Simulator · Emergency Fund · Salary Hike Simulator
+<details>
+<summary>📈 Illustrative projection (₹ lakh, assumed 12% p.a.)</summary>
+<br>
 
-> Projection charts use a standard SIP future-value formula with an **assumed** 12% p.a. purely for illustration. This is not a forecast or a promise of returns.
+| Year | A: ₹0 | B: ₹5,000 | C: ₹10,000 |
+|---|---|---|---|
+| 0 | 0.0 | 0.0 | 0.0 |
+| 2 | 0.0 | 1.4 | 2.7 |
+| 4 | 0.0 | 3.1 | 6.2 |
+| 6 | 0.0 | 5.3 | 10.6 |
+| 8 | 0.0 | 8.1 | 16.2 |
+| 10 | 0.0 | 11.6 | 23.2 |
 
-### 9. Scam Protection
+*Illustration only. Not a forecast or a promise of returns.*
 
-A pattern-based scan of a pasted message. It looks for:
+</details>
 
-- OTP requests
-- Urgency
-- Prize offers
-- Suspicious links
-- Remote-access apps
+</details>
 
-**Output:** a risk level with an explanation. This is pattern matching, not a guarantee.
+<details>
+<summary><b>🛡️ 9. Scam Protection</b></summary>
+<br>
 
-### 10. Camera Banking
+Pattern-based scan of a pasted message for: **OTP requests · Urgency · Prize offers · Suspicious links · Remote-access apps**
 
-Document photo checks that run in the browser:
+**Output:** risk level + explanation. Pattern matching, not a guarantee.
 
-- Image brightness
-- Sharpness
-- Document coverage
-- Best-effort OCR (Tesseract.js, which depends on an online library)
+</details>
 
-**Privacy:** PAN / Aadhaar numbers are always masked (e.g. `XXXX XXXX 2346`). The complete number and the image are not stored by the feature.
+<details>
+<summary><b>📷 10. Camera Banking</b></summary>
+<br>
 
-### 11. Bank Manager & Executive Intelligence
+In-browser document photo checks: **brightness · sharpness · document coverage · best-effort OCR** (Tesseract.js, needs an online library).
 
-From individual insights to banking intelligence.
+🔐 **Privacy:** PAN / Aadhaar numbers are always masked (`XXXX XXXX 2346`). The complete number and image are not stored.
 
-**Manager Dashboard**
-- City-wise digital adoption heatmap
-- Low-adoption finder
-- High-value finder
-- K-means customer segmentation (needs 3+ accounts)
+</details>
 
-**Executive Intelligence**
-- SIP adoption prediction
-- Insurance adoption prediction
-- Investment and insurance opportunities
-- Revenue opportunity estimate
-- Fraud monitoring
-- Campaign tracking
+<details>
+<summary><b>🏦 11. Bank Manager & Executive Intelligence</b></summary>
+<br>
 
-> In the current implementation, all insights are based on accounts registered **in the same browser**. SIP / insurance predictions are fixed-weight heuristics, not trained models.
+| Manager Dashboard | Executive Intelligence |
+|---|---|
+| City-wise digital adoption heatmap | SIP adoption prediction |
+| Low-adoption finder | Insurance adoption prediction |
+| High-value finder | Investment / insurance opportunities |
+| K-means segmentation (3+ accounts) | Revenue opportunity estimate |
+| | Fraud monitoring · Campaign tracking |
+
+> Based only on accounts registered in the **same browser**. Predictions are fixed-weight heuristics, not trained models.
+
+</details>
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 **Runs entirely in the browser.**
 
@@ -331,85 +386,91 @@ From individual insights to banking intelligence.
 |---|---|
 | Frontend | HTML + CSS + JavaScript |
 | Visualization | SVG + Three.js |
-| PDF Reports | jsPDF |
+| PDF reports | jsPDF |
 | OCR | Tesseract.js (best-effort) |
 | Voice | Web Speech API |
 | Storage | Browser storage |
 | Logic | Rule-based + heuristics |
-| ML | Linear Regression (savings forecasts), K-Means Clustering (segmentation) |
+| ML | Linear Regression · K-Means Clustering |
 | Prediction | Fixed-weight logistic score (heuristic) |
 | Chatbot | Local rule-based assistant |
-| Formulas | EMI · DTI · Net worth |
 
-The original hackathon prototype (DigiMentor AI 3.0) was built with Streamlit and Google Colab.
-
----
-
-## Formulas Used
+<details>
+<summary><b>📐 Formulas used</b></summary>
+<br>
 
 ```text
 Savings Rate = (Income − Expenses) ÷ Income × 100
-
 DTI          = Total Monthly EMI ÷ Monthly Income × 100
-
 Net Worth    = Cash + Investments − Loans
-
 EMI          = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)
-               P = principal, r = monthly rate, n = number of months
 ```
 
----
+</details>
 
-## Current Limitations
+<details>
+<summary><b>⚠️ Current limitations (stated up front)</b></summary>
+<br>
 
-We state these up front on purpose. Technical honesty is a design choice.
-
-- No backend / database
-- Data is browser-local
+- No backend / database; data is browser-local
 - No production banking integration
 - Loan / credit outputs are simulations
 - Life-event outputs are estimates
 - Propensity models are not trained on real outcomes
-- The chatbot is rule-based, not an LLM
-- OCR is best-effort and depends on an online library
-- Manager / Executive views only cover accounts registered in the same browser
+- Chatbot is rule-based, not an LLM
+- OCR is best-effort and needs an online library
+- Manager / Executive views cover same-browser accounts only
 - Some features remain future scope
 
----
+*Technical honesty is a design choice.*
 
-## Roadmap: MANSHORA 2.0
-
-*From prototype to real-world financial intelligence.* Everything below is **future scope**; nothing here is implemented today.
-
-| Phase | Focus | Planned Work |
-|---|---|---|
-| **1** | Foundation | Node.js backend · Secure database · Authentication · Server-side security |
-| **2** | Intelligence | Secure LLM integration · Trained propensity models · Real outcome-based ML · Advanced personalization |
-| **3** | Banking Integration | Consent-based transaction data · Secure banking APIs · Real digital adoption signals · Real-time insights |
-| **4** | Scale | Enterprise banking deployment · Advanced fraud intelligence · Personalized financial journeys · Responsible Agentic AI |
+</details>
 
 ---
 
-## Project Demonstration
+## 🚀 Roadmap: MANSHORA 2.0
 
-- **Prototype notebook (Google Colab):** [Open in Colab](https://colab.research.google.com/drive/1qdm39UOnB7qQUSCbRjnKjOZniCnCs9MQ#scrollTo=BgxUpgUyj1BP)
-- **MANSHORA web app:** a single self-contained HTML file. Open it in any modern browser to run it locally.
+*Future scope only. Nothing here is implemented today.*
 
-<!-- Add screenshots or a demo video link here -->
+```mermaid
+flowchart LR
+    P1["<b>Phase 1 · Foundation</b><br/>Node.js backend<br/>Secure database<br/>Authentication<br/>Server-side security"]
+    P2["<b>Phase 2 · Intelligence</b><br/>Secure LLM integration<br/>Trained propensity models<br/>Real outcome-based ML<br/>Advanced personalization"]
+    P3["<b>Phase 3 · Banking Integration</b><br/>Consent-based transaction data<br/>Secure banking APIs<br/>Real digital adoption signals<br/>Real-time insights"]
+    P4["<b>Phase 4 · Scale</b><br/>Enterprise deployment<br/>Advanced fraud intelligence<br/>Personalized journeys<br/>Responsible Agentic AI"]
+    P1 --> P2 --> P3 --> P4
+```
+
+**Progress tracker**
+
+- [x] Browser-based prototype with 14 modules
+- [ ] Phase 1: Foundation
+- [ ] Phase 2: Intelligence
+- [ ] Phase 3: Banking Integration
+- [ ] Phase 4: Scale
 
 ---
 
-## Disclaimer
+## 🎬 Project Demonstration
 
-MANSHORA provides **educational and simulated financial insights**. Recommendations are **not** guaranteed financial advice, loan approval, investment advice, or credit decisions. All demo visuals are illustrative mockups.
+| | |
+|---|---|
+| 📓 **Prototype notebook** | [Open in Google Colab](https://colab.research.google.com/drive/1qdm39UOnB7qQUSCbRjnKjOZniCnCs9MQ#scrollTo=BgxUpgUyj1BP) |
+| 🌐 **Web app** | Single self-contained HTML file. Open it in any modern browser. |
+
+<!-- Add screenshots / demo GIF here -->
 
 ---
 
-## Authors
+## 📜 Disclaimer
 
-**Mansi Kushwaha** × **Sheetal**
+MANSHORA provides **educational and simulated financial insights**. Recommendations are **not** guaranteed financial advice, loan approval, investment advice, or credit decisions. Demo visuals are illustrative mockups.
+
+---
 
 <div align="center">
+
+**Mansi Kushwaha** × **Sheetal**
 
 *Analyze. Understand. Predict. Act.*
 
