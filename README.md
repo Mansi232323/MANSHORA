@@ -272,22 +272,24 @@ flowchart TD
 ### 🗣️ Who talks to whom
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','primaryColor':'#0b0b2a','primaryTextColor':'#ffffff','primaryBorderColor':'#00fff7','textColor':'#ffffff','lineColor':'#00fff7','actorBkg':'#0b0b2a','actorBorder':'#00fff7','actorTextColor':'#ffffff','actorLineColor':'#b026ff','signalColor':'#00fff7','signalTextColor':'#ffffff','labelBoxBkgColor':'#0b0b2a','labelBoxBorderColor':'#00fff7','labelTextColor':'#ffffff','loopTextColor':'#ffffff','noteBkgColor':'#2b2600','noteTextColor':'#ffffff','noteBorderColor':'#fff200','activationBkgColor':'#042f3a','activationBorderColor':'#00fff7','sequenceNumberColor':'#0b0b2a','background':'#0b0b2a'},'sequence':{'actorMargin':60,'messageMargin':34,'boxMargin':10,'mirrorActors':false,'width':170,'height':48}}}%%
 sequenceDiagram
     autonumber
     actor U as Customer
     participant A as MANSHORA App
     participant L as Local Logic
     participant S as Browser Storage
-    U->>A: Add this month's data
-    A->>S: Save month, keep history
-    A->>L: Run formulas and rules
-    L-->>A: Score, gaps, signals
-    A-->>U: Dashboard and next action
-    U->>A: Ask the chatbot a question
-    A->>L: Match rule, calculate
-    L-->>A: Explain, Calculate, Recommend, Plan
-    A-->>U: Four-part answer
+    rect rgb(11, 11, 42)
+        U->>A: Add this month's data
+        A->>S: Save month, keep history
+        A->>L: Run formulas and rules
+        L-->>A: Score, gaps, signals
+        A-->>U: Dashboard and next action
+        U->>A: Ask the chatbot a question
+        A->>L: Match rule, calculate
+        L-->>A: Explain, Calculate, Recommend, Plan
+        A-->>U: Four-part answer
+    end
 ```
 
 <div align="right"><a href="#top">⬆ back to top</a></div>
@@ -358,7 +360,7 @@ flowchart LR
 <br>
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','pie1':'#b026ff','pie2':'#00e5ff','pie3':'#39ff14','pie4':'#ff2bd6','pieSectionTextColor':'#0b0b2a','pieStrokeColor':'#07071c','pieStrokeWidth':'2px'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','pie1':'#b026ff','pie2':'#00e5ff','pie3':'#39ff14','pie4':'#ff2bd6','pieSectionTextColor':'#0b0b2a','pieTitleTextColor':'#8b5cf6','pieLegendTextColor':'#8b5cf6','pieOuterStrokeColor':'#00fff7','pieOuterStrokeWidth':'2px','pieStrokeColor':'#07071c','pieStrokeWidth':'2px'}}}%%
 pie showData title Health Score Weights (100 points)
     "Savings rate" : 35
     "Low DTI" : 25
