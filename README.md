@@ -48,16 +48,16 @@
 MANSHORA turns raw financial data into clear understanding and concrete next steps.
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'26px','primaryColor':'#ede9fe','primaryBorderColor':'#7c3aed','primaryTextColor':'#1e1b4b','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':50,'rankSpacing':60,'padding':24,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    A["<b>DATA</b><br/>What you enter"]
-    B["<b>ANALYZE</b><br/>Scores and ratios"]
-    C["<b>UNDERSTAND</b><br/>Profile and gaps"]
-    D["<b>PREDICT</b><br/>Trends and signals"]
-    E["<b>ACT</b><br/>Your next step"]
+    A["DATA<br/>What you enter"]
+    B["ANALYZE<br/>Scores and ratios"]
+    C["UNDERSTAND<br/>Profile and gaps"]
+    D["PREDICT<br/>Trends and signals"]
+    E["ACT<br/>Your next step"]
     A --> B --> C --> D --> E
-    classDef step fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
-    classDef goal fill:#0b0b1f,stroke:#00f5ff,stroke-width:3px,color:#00f5ff
+    classDef step fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
+    classDef goal fill:#0e4a5c,stroke:#67e8f9,stroke-width:3px,color:#ffffff
     class A,B,C,D step
     class E goal
 ```
@@ -96,16 +96,21 @@ flowchart TB
 ## 🛤️ Our Journey
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','cScale0':'#ff00e5','cScaleLabel0':'#0b0b1f','cScale1':'#00f5ff','cScaleLabel1':'#0b0b1f','cScale2':'#39ff14','cScaleLabel2':'#0b0b1f','cScale3':'#b026ff','cScaleLabel3':'#0b0b1f','cScale4':'#fff200','cScaleLabel4':'#0b0b1f','cScale5':'#ff6700','cScaleLabel5':'#0b0b1f','cScale6':'#1f51ff','cScaleLabel6':'#0b0b1f','cScale7':'#ff2079','cScaleLabel7':'#0b0b1f','cScale8':'#00ffa3','cScaleLabel8':'#0b0b1f','cScale9':'#ff9e00','cScaleLabel9':'#0b0b1f','cScale10':'#7df9ff','cScaleLabel10':'#0b0b1f','cScale11':'#ff61f6','cScaleLabel11':'#0b0b1f'}}}%%
-timeline
-    title From Hackathon Idea to Fintech Product
-    section Hackathon
-        SBI × GFF 2026 : Theme 2, Agentic AI & Emerging Tech
-        Prototype : 5,000 customer records in Google Colab
-        DigiMentor AI 3.0 : Streamlit-based banking prototype
-        Submission : Concept, prototype and demo video
-    section Beyond
-        MANSHORA : Independent, broader financial intelligence platform
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
+flowchart TB
+    subgraph H["HACKATHON · SBI × GFF 2026"]
+        direction TB
+        h1["Theme 2<br/>Agentic AI and Emerging Tech"] --> h2["Prototype<br/>5,000 customer records in Google Colab"] --> h3["DigiMentor AI 3.0<br/>Streamlit-based banking prototype"] --> h4["Submission<br/>Concept, prototype and demo video"]
+    end
+    subgraph B["BEYOND THE HACKATHON"]
+        direction TB
+        b1["MANSHORA<br/>Independent, broader financial<br/>intelligence platform"]
+    end
+    H --> B
+    classDef hack fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
+    classDef now fill:#0e4a5c,stroke:#67e8f9,stroke-width:3px,color:#ffffff
+    class h1,h2,h3,h4 hack
+    class b1 now
 ```
 
 > 🌱 We chose not to stop at the idea phase. The prototype became the foundation for a broader platform.
@@ -145,15 +150,15 @@ timeline
 </details>
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'26px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':50,'rankSpacing':60,'padding':24,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    C["<b>Customers</b><br/>fragmented information"]
-    B["<b>Banks</b><br/>fragmented signals"]
-    M["<b>INTELLIGENCE</b><br/>the missing layer"]
+    C["Customers<br/>fragmented information"]
+    B["Banks<br/>fragmented signals"]
+    M["INTELLIGENCE<br/>the missing layer"]
     C --> M
     B --> M
-    classDef problem fill:#0b0b1f,stroke:#ff2079,stroke-width:3px,color:#ffc2da
-    classDef answer fill:#0b0b1f,stroke:#00f5ff,stroke-width:3px,color:#00f5ff
+    classDef problem fill:#3b0d24,stroke:#f472b6,stroke-width:3px,color:#ffe4f0
+    classDef answer fill:#0e4a5c,stroke:#67e8f9,stroke-width:3px,color:#ffffff
     class C,B problem
     class M answer
 ```
@@ -163,7 +168,7 @@ flowchart TB
 ## 🧩 Product Ecosystem
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','cScale0':'#ff00e5','cScaleLabel0':'#0b0b1f','cScale1':'#00f5ff','cScaleLabel1':'#0b0b1f','cScale2':'#39ff14','cScaleLabel2':'#0b0b1f','cScale3':'#b026ff','cScaleLabel3':'#0b0b1f','cScale4':'#fff200','cScaleLabel4':'#0b0b1f','cScale5':'#ff6700','cScaleLabel5':'#0b0b1f','cScale6':'#1f51ff','cScaleLabel6':'#0b0b1f','cScale7':'#ff2079','cScaleLabel7':'#0b0b1f','cScale8':'#00ffa3','cScaleLabel8':'#0b0b1f','cScale9':'#ff9e00','cScaleLabel9':'#0b0b1f','cScale10':'#7df9ff','cScaleLabel10':'#0b0b1f','cScale11':'#ff61f6','cScaleLabel11':'#0b0b1f'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','cScale0':'#4c1d95','cScaleLabel0':'#ffffff','cScale1':'#0e7490','cScaleLabel1':'#ffffff','cScale2':'#9d174d','cScaleLabel2':'#ffffff','cScale3':'#166534','cScaleLabel3':'#ffffff','cScale4':'#854d0e','cScaleLabel4':'#ffffff','cScale5':'#9a3412','cScaleLabel5':'#ffffff','cScale6':'#1e40af','cScaleLabel6':'#ffffff','cScale7':'#6b21a8','cScaleLabel7':'#ffffff','git0':'#4c1d95','gitBranchLabel0':'#ffffff'}}}%%
 mindmap
   root((MANSHORA))
     Customer-facing
@@ -198,14 +203,14 @@ mindmap
 | Frame recommendations as educational | Promise guaranteed advice |
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'26px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':50,'rankSpacing':60,'padding':24,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    I["<b>Real user input</b><br/>income, expenses, savings,<br/>investments, EMI, goals"]
-    K["<b>Transparent formulas</b>"]
-    O["<b>Calculated insights</b><br/>health score, DTI, net worth"]
+    I["Real user input<br/>income, expenses, savings,<br/>investments, EMI, goals"]
+    K["Transparent formulas"]
+    O["Calculated insights<br/>health score, DTI, net worth"]
     I --> K --> O
-    classDef flow fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
-    classDef out fill:#0b0b1f,stroke:#00f5ff,stroke-width:3px,color:#c9fdff
+    classDef flow fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
+    classDef out fill:#082f3a,stroke:#22d3ee,stroke-width:3px,color:#ecfeff
     class I,K flow
     class O out
 ```
@@ -228,12 +233,12 @@ flowchart TB
 - Forecasts use **linear regression** on saved history
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'24px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':50,'rankSpacing':60,'padding':22,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    M["<b>Add new month</b>"] --> H["<b>History retained</b>"]
-    H --> T["<b>Trends and KPIs</b>"]
-    H --> F["<b>Forecast</b>"]
-    classDef a fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
+    M["Add new month"] --> H["History retained"]
+    H --> T["Trends and KPIs"]
+    H --> F["Forecast"]
+    classDef a fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
     class M,H,T,F a
 ```
 
@@ -244,7 +249,7 @@ flowchart TB
 <br>
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','pieTitleTextSize':'26px','pieSectionTextSize':'22px','pieLegendTextSize':'22px','pie1':'#ff00e5','pie2':'#00f5ff','pie3':'#39ff14','pie4':'#fff200','pieSectionTextColor':'#0b0b1f','pieStrokeColor':'#0b0b1f','pieStrokeWidth':'3px','pieOuterStrokeColor':'#b026ff','pieOuterStrokeWidth':'3px'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','pieTitleTextSize':'26px','pieSectionTextSize':'22px','pieLegendTextSize':'22px','pie1':'#7c3aed','pie2':'#0891b2','pie3':'#16a34a','pie4':'#db2777','pieSectionTextColor':'#ffffff','pieStrokeColor':'#0f0f2b','pieStrokeWidth':'3px','pieOuterStrokeColor':'#a78bfa','pieOuterStrokeWidth':'3px'}}}%%
 pie showData title Health Score Weights (100 points)
     "Savings rate" : 35
     "Low DTI" : 25
@@ -272,7 +277,7 @@ pie showData title Health Score Weights (100 points)
 <br>
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'24px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':40,'rankSpacing':70,'padding':22,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
     subgraph G1["Financial"]
         direction TB
@@ -304,11 +309,11 @@ flowchart TB
     G2 --> S
     G3 --> S
     G4 --> S
-    S["<b>COUNCIL SYNTHESIS</b>"]
-    S --> R["<b>Overall Health · Biggest Opportunity<br/>Biggest Risk · Next Action</b>"]
-    classDef agent fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
-    classDef core fill:#0b0b1f,stroke:#00f5ff,stroke-width:3px,color:#00f5ff
-    classDef out fill:#0b0b1f,stroke:#00f5ff,stroke-width:3px,color:#c9fdff
+    S["COUNCIL SYNTHESIS"]
+    S --> R["Overall Health · Biggest Opportunity<br/>Biggest Risk · Next Action"]
+    classDef agent fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
+    classDef core fill:#0e4a5c,stroke:#67e8f9,stroke-width:3px,color:#ffffff
+    classDef out fill:#082f3a,stroke:#22d3ee,stroke-width:3px,color:#ecfeff
     class a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14 agent
     class S core
     class R out
@@ -329,13 +334,13 @@ Each agent returns **Status · Recommendation · Confidence · Reason**.
 - **30-Day Action Plan**, **Personalized Nudges**, **Potential Next Products**
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'24px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':50,'rankSpacing':60,'padding':22,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    U["<b>Usage</b><br/>UPI · Mobile · Internet"] --> S["<b>Score</b><br/>0 – 100"] --> G["<b>Gaps</b>"]
-    G --> P["<b>30-Day Plan</b>"]
-    G --> N["<b>Nudges</b>"]
-    G --> X["<b>Next Products</b>"]
-    classDef a fill:#0b0b1f,stroke:#00f5ff,stroke-width:3px,color:#c9fdff
+    U["Usage<br/>UPI · Mobile · Internet"] --> S["Score<br/>0 – 100"] --> G["Gaps"]
+    G --> P["30-Day Plan"]
+    G --> N["Nudges"]
+    G --> X["Next Products"]
+    classDef a fill:#082f3a,stroke:#22d3ee,stroke-width:3px,color:#ecfeff
     class U,S,G,P,N,X a
 ```
 
@@ -368,11 +373,11 @@ flowchart TB
 - Every answer has four parts:
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'26px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':40,'rankSpacing':50,'padding':22,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    Q["<b>Your question</b>"] --> E["<b>1 Explanation</b>"] --> C["<b>2 Calculation</b>"] --> R["<b>3 Recommendation</b>"] --> A["<b>4 Action Plan</b>"]
-    classDef a fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
-    classDef q fill:#0b0b1f,stroke:#ff6700,stroke-width:3px,color:#ffd2b0
+    Q["Your question"] --> E["1 Explanation"] --> C["2 Calculation"] --> R["3 Recommendation"] --> A["4 Action Plan"]
+    classDef a fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
+    classDef q fill:#3d1d08,stroke:#fb923c,stroke-width:3px,color:#fff1e6
     class E,C,R,A a
     class Q q
 ```
@@ -429,16 +434,16 @@ flowchart TB
 Pattern-based scan for: **OTP requests · Urgency · Prize offers · Suspicious links · Remote-access apps**
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'26px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':40,'rankSpacing':60,'padding':22,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    M["<b>Pasted message</b>"] --> P["<b>Pattern scan</b>"]
-    P --> L["<b>Low</b>"]
-    P --> Md["<b>Medium</b>"]
-    P --> H["<b>High</b>"]
-    classDef n fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
-    classDef low fill:#0b0b1f,stroke:#39ff14,stroke-width:3px,color:#d3ffc8
-    classDef mid fill:#0b0b1f,stroke:#fff200,stroke-width:3px,color:#fffbb0
-    classDef high fill:#0b0b1f,stroke:#ff2079,stroke-width:3px,color:#ffc2da
+    M["Pasted message"] --> P["Pattern scan"]
+    P --> L["Low"]
+    P --> Md["Medium"]
+    P --> H["High"]
+    classDef n fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
+    classDef low fill:#0b3a22,stroke:#4ade80,stroke-width:3px,color:#f0fff4
+    classDef mid fill:#3d3208,stroke:#facc15,stroke-width:3px,color:#fffbe6
+    classDef high fill:#3b0d24,stroke:#f472b6,stroke-width:3px,color:#ffe4f0
     class M,P n
     class L low
     class Md mid
@@ -482,15 +487,15 @@ Checks **brightness · sharpness · document coverage**, plus best-effort OCR (T
 **Runs entirely in the browser.**
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'26px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':40,'rankSpacing':60,'padding':22,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    B["<b>Single HTML file in your browser</b>"]
-    B --> U["<b>UI</b><br/>HTML · CSS · JS<br/>SVG · Three.js"]
-    B --> L["<b>Logic</b><br/>Rules · Regression<br/>K-Means"]
-    B --> A["<b>Browser APIs</b><br/>Speech · jsPDF<br/>Tesseract.js"]
-    B --> S["<b>Storage</b><br/>Browser-local"]
-    classDef core fill:#0b0b1f,stroke:#00f5ff,stroke-width:3px,color:#00f5ff
-    classDef n fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
+    B["Single HTML file in your browser"]
+    B --> U["UI<br/>HTML · CSS · JS<br/>SVG · Three.js"]
+    B --> L["Logic<br/>Rules · Regression<br/>K-Means"]
+    B --> A["Browser APIs<br/>Speech · jsPDF<br/>Tesseract.js"]
+    B --> S["Storage<br/>Browser-local"]
+    classDef core fill:#0e4a5c,stroke:#67e8f9,stroke-width:3px,color:#ffffff
+    classDef n fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
     class B core
     class U,L,A,S n
 ```
@@ -546,16 +551,16 @@ EMI          = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)
 *Future scope only. Nothing below the first step is implemented today.*
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'26px','lineColor':'#00f5ff','clusterBkg':'#0b0b1f','clusterBorder':'#ff00e5','titleColor':'#ff00e5','edgeLabelBackground':'#0b0b1f'},'flowchart':{'nodeSpacing':40,'rankSpacing':60,'padding':24,'htmlLabels':true}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'22px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9','clusterBkg':'#0f0f2b','clusterBorder':'#a78bfa','titleColor':'#e9d5ff','edgeLabelBackground':'#0f0f2b'},'flowchart':{'nodeSpacing':45,'rankSpacing':60,'padding':28,'htmlLabels':false,'useMaxWidth':true}}}%%
 flowchart TB
-    P0["<b>TODAY</b><br/>Browser prototype, 14 modules"]
-    P1["<b>Phase 1 · Foundation</b><br/>Backend, database, authentication"]
-    P2["<b>Phase 2 · Intelligence</b><br/>Secure LLM, trained models"]
-    P3["<b>Phase 3 · Banking Integration</b><br/>Consent-based data, secure APIs"]
-    P4["<b>Phase 4 · Scale</b><br/>Enterprise, fraud intelligence"]
+    P0["TODAY<br/>Browser prototype, 14 modules"]
+    P1["Phase 1 · Foundation<br/>Backend, database, authentication"]
+    P2["Phase 2 · Intelligence<br/>Secure LLM, trained models"]
+    P3["Phase 3 · Banking Integration<br/>Consent-based data, secure APIs"]
+    P4["Phase 4 · Scale<br/>Enterprise, fraud intelligence"]
     P0 --> P1 --> P2 --> P3 --> P4
-    classDef done fill:#0b0b1f,stroke:#39ff14,stroke-width:3px,color:#39ff14
-    classDef next fill:#0b0b1f,stroke:#b026ff,stroke-width:3px,color:#f3e8ff
+    classDef done fill:#14532d,stroke:#4ade80,stroke-width:3px,color:#ffffff
+    classDef next fill:#1e1145,stroke:#a78bfa,stroke-width:3px,color:#f5f3ff
     class P0 done
     class P1,P2,P3,P4 next
 ```
