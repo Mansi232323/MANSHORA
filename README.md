@@ -1,22 +1,17 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=7C3AED&center=true&vCenter=true&width=700&lines=MANSHORA;Insight+Engineered+for+Impact;Analyze.+Understand.+Predict.+Act." alt="MANSHORA typing banner" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1200&color=7C3AED&center=true&vCenter=true&width=800&lines=MANSHORA;Insight+Engineered+for+Impact;Analyze.+Understand.+Predict.+Act." alt="MANSHORA typing banner" />
 
-**From Financial Data to Intelligent Decisions**
+### **From Financial Data to Intelligent Decisions**
 
 ![SBI x GFF 2026](https://img.shields.io/badge/SBI%20%C3%97%20GFF-2026-1d4ed8?style=for-the-badge)
 ![Theme](https://img.shields.io/badge/Theme%202-Digital%20Adoption-06b6d4?style=for-the-badge)
 ![Modules](https://img.shields.io/badge/Modules-14-7c3aed?style=for-the-badge)
 ![Agents](https://img.shields.io/badge/AI%20Council-14%20Agents-a855f7?style=for-the-badge)
+![No Backend](https://img.shields.io/badge/Runs-100%25%20in%20Browser-22c55e?style=for-the-badge)
+![Data](https://img.shields.io/badge/Fake%20Data-None-ef4444?style=for-the-badge)
 
-![HTML](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black)
-![Three.js](https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white)
-![No Backend](https://img.shields.io/badge/Runs-100%25%20in%20Browser-22c55e)
-![Data](https://img.shields.io/badge/Fake%20Data-None-ef4444)
-
-[**Overview**](#-overview) · [**Journey**](#-our-journey) · [**Problem**](#-the-problem) · [**Ecosystem**](#-product-ecosystem) · [**Features**](#-feature-deep-dive-click-to-expand) · [**Tech**](#-technology-stack) · [**Roadmap**](#-roadmap-manshora-20) · [**Demo**](#-project-demonstration)
+[![Open Prototype in Colab](https://img.shields.io/badge/📓%20Open%20Prototype-Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1qdm39UOnB7qQUSCbRjnKjOZniCnCs9MQ#scrollTo=BgxUpgUyj1BP)
 
 *Created by **Mansi Kushwaha** × **Sheetal** · Evolved from **DigiMentor AI 3.0***
 
@@ -24,18 +19,33 @@
 
 ---
 
+## ⚡ Quick Look
+
+| 🧩 | 🤖 | 🔒 | 🌐 |
+|:---:|:---:|:---:|:---:|
+| **14** modules | **14** AI agents | **0** fake data | **0** backend |
+| Customer + Bank | Council synthesis | Real inputs only | Runs in browser |
+
+> **Financial data exists. Financial understanding doesn't.**
+> MANSHORA is the intelligence layer that closes that gap for both customers and banks.
+
+---
+
 ## 🧭 Overview
 
-**MANSHORA** is a financial intelligence platform that turns raw financial data into clear understanding and concrete next steps. One intelligence layer serves both **customers** and **banks**, and it runs entirely in the browser with no backend.
+MANSHORA turns raw financial data into clear understanding and concrete next steps.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','primaryColor':'#1e1145','primaryTextColor':'#f5f3ff','primaryBorderColor':'#a78bfa','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':40,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
 flowchart LR
-    A[📥 DATA] --> B[🔍 ANALYZE] --> C[💡 UNDERSTAND] --> D[🔮 PREDICT] --> E[🎯 ACT]
-    style A fill:#7c3aed,color:#fff,stroke:none
-    style B fill:#6d28d9,color:#fff,stroke:none
-    style C fill:#5b21b6,color:#fff,stroke:none
-    style D fill:#0891b2,color:#fff,stroke:none
-    style E fill:#06b6d4,color:#fff,stroke:none
+    A["<b>DATA</b><br/>What you enter"] --> B["<b>ANALYZE</b><br/>Scores and ratios"]
+    B --> C["<b>UNDERSTAND</b><br/>Profile and gaps"]
+    C --> D["<b>PREDICT</b><br/>Trends and signals"]
+    D --> E["<b>ACT</b><br/>Your next step"]
+    classDef step fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    classDef goal fill:#0e4a5c,stroke:#67e8f9,stroke-width:2px,color:#ffffff
+    class A,B,C,D step
+    class E goal
 ```
 
 <table>
@@ -43,114 +53,129 @@ flowchart LR
 <td width="50%" valign="top">
 
 ### 👤 For Customers
-- Financial health score
-- Monthly financial tracking
-- AI-style insights
-- Simulations and goal planning
-- Digital adoption analysis
-- Financial chatbot
-- Life-event signals
+- 💯 Financial health score
+- 📅 Monthly tracking
+- 🧠 AI-style insights
+- 🧪 Simulations and goals
+- 📱 Digital adoption analysis
+- 💬 Financial chatbot
+- 🎉 Life-event signals
 
 </td>
 <td width="50%" valign="top">
 
-### 🏦 For Banks / Managers
-- Customer segmentation
-- Digital adoption analysis
-- Risk signals
-- Product opportunities
-- Investment / insurance opportunities
-- Campaign monitoring
-- Executive intelligence
+### 🏦 For Banks and Managers
+- 🧬 Customer segmentation
+- 📱 Digital adoption analysis
+- ⚠️ Risk signals
+- 🎁 Product opportunities
+- 📈 Investment and insurance opportunities
+- 📣 Campaign monitoring
+- 🧭 Executive intelligence
 
 </td>
 </tr>
 </table>
 
----
-
-## 🛤️ Our Journey
+### 🛤️ Our Journey
 
 ```mermaid
-timeline
-    title From Hackathon Idea to Fintech Product
-    section Hackathon
-        SBI × GFF 2026 : Theme 2, Agentic AI & Emerging Tech
-        Prototype : 5,000 customer records in Google Colab
-        DigiMentor AI 3.0 : Streamlit-based AI banking prototype
-        Submission : Concept, prototype and demo video
-    section Beyond
-        Independent development : Did not stop at the idea phase
-        MANSHORA : Broader financial intelligence platform
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','primaryColor':'#1e1145','primaryTextColor':'#f5f3ff','primaryBorderColor':'#a78bfa','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':40,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart LR
+    h1["<b>Theme 2</b><br/>Agentic AI and<br/>Emerging Tech"] --> h2["<b>Prototype</b><br/>5,000 records<br/>in Google Colab"]
+    h2 --> h3["<b>DigiMentor AI 3.0</b><br/>Streamlit-based<br/>banking prototype"]
+    h3 --> h4["<b>Submission</b><br/>Concept, prototype<br/>and demo video"]
+    h4 --> b1["<b>MANSHORA</b><br/>Broader financial<br/>intelligence platform"]
+    classDef hack fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    classDef now fill:#0e4a5c,stroke:#67e8f9,stroke-width:2px,color:#ffffff
+    class h1,h2,h3,h4 hack
+    class b1 now
 ```
 
-> We chose not to stop at the idea phase. We used the prototype as a foundation and expanded it into a broader financial intelligence platform.
+> 🌱 We chose not to stop at the idea phase. The prototype became the foundation for a broader platform.
 
 ---
 
 ## ⚠️ The Problem
 
-**Financial data exists. Financial understanding doesn't.**
-
-<details>
-<summary><b>👤 Customer problem</b> (click to expand)</summary>
+<details open>
+<summary><b>👤 Customers have data, not answers</b></summary>
 <br>
 
-People often struggle to answer:
-
-- Am I saving enough?
-- Can I afford a loan?
-- How much emergency fund do I need?
-- Should I invest more?
-- How well am I using digital banking?
-- What financial goal should I prioritize?
+- ❓ Am I saving enough?
+- ❓ Can I afford a loan?
+- ❓ How much emergency fund do I need?
+- ❓ Should I invest more?
+- ❓ How well am I using digital banking?
+- ❓ Which goal should I prioritize?
 
 **Result:** fragmented financial information.
 
 </details>
 
-<details>
-<summary><b>🏦 Banking problem</b> (click to expand)</summary>
+<details open>
+<summary><b>🏦 Banks have signals, not next actions</b></summary>
 <br>
 
-Banks hold data but need better ways to identify:
-
-- Digital adoption gaps
-- Customer segments
-- Product opportunities
-- Engagement opportunities
-- Financial risk signals
-- Next-best actions
+- 📉 Digital adoption gaps
+- 🧩 Customer segments
+- 🎁 Product opportunities
+- 🤝 Engagement opportunities
+- ⚠️ Financial risk signals
+- 🎯 Next-best actions
 
 **Result:** fragmented customer signals.
 
 </details>
 
-> **The missing layer is intelligence.**
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':40,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart LR
+    C["<b>Customers</b><br/>fragmented information"] --> M
+    B["<b>Banks</b><br/>fragmented signals"] --> M
+    M["<b>INTELLIGENCE</b><br/>the missing layer"]
+    classDef problem fill:#3b0d24,stroke:#f472b6,stroke-width:2px,color:#ffe4f0
+    classDef answer fill:#0e4a5c,stroke:#67e8f9,stroke-width:2px,color:#ffffff
+    class C,B problem
+    class M answer
+```
 
 ---
 
 ## 🧩 Product Ecosystem
 
 ```mermaid
-mindmap
-  root((MANSHORA<br/>Intelligence Layer))
-    Customer-facing
-      Customer Hub
-      Financial Health
-      Financial DNA
-      AI Chatbot
-      Life Events
-      Simulation Lab
-      Planner
-      Loan Advisor
-      Scam Protection
-      Camera Banking
-      Digital Adoption
-    Bank-facing
-      AI Council
-      Manager Dashboard
-      Executive Intelligence
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':30,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart TB
+    R(["<b>MANSHORA</b>"])
+    subgraph CF["👤 Customer-facing"]
+        direction TB
+        c1["Customer Hub"]
+        c2["Financial Health"]
+        c3["Financial DNA"]
+        c4["AI Chatbot"]
+        c5["Life Events"]
+        c6["Simulation Lab"]
+        c7["Planner"]
+        c8["Loan Advisor"]
+        c9["Scam Protection"]
+        c10["Camera Banking"]
+        c11["Digital Adoption"]
+    end
+    subgraph BF["🏦 Bank-facing"]
+        direction TB
+        b1["AI Council"]
+        b2["Manager Dashboard"]
+        b3["Executive Intelligence"]
+    end
+    R --> CF
+    R --> BF
+    classDef root fill:#4c1d95,stroke:#c4b5fd,stroke-width:2px,color:#ffffff
+    classDef cust fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    classDef bank fill:#0e4a5c,stroke:#67e8f9,stroke-width:2px,color:#ffffff
+    class R root
+    class c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11 cust
+    class b1,b2,b3 bank
 ```
 
 ---
@@ -166,34 +191,52 @@ mindmap
 | Label every simulated output | Present simulations as facts |
 | Frame recommendations as educational | Promise guaranteed advice |
 
-**Real user input** (income, expenses, savings, investments, EMI, goals, digital banking usage) → **calculated insights** (health score, savings rate, DTI, net worth, digital adoption score).
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':40,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart LR
+    I["<b>Real user input</b><br/>income, expenses, savings,<br/>investments, EMI, goals"] --> K["<b>Transparent formulas</b>"]
+    K --> O["<b>Calculated insights</b><br/>health score, DTI, net worth"]
+    classDef flow fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    classDef out fill:#082f3a,stroke:#22d3ee,stroke-width:2px,color:#ecfeff
+    class I,K flow
+    class O out
+```
 
 *Transparency is a feature.*
 
 ---
 
-## 🔬 Feature Deep Dive (click to expand)
+## 🔬 Feature Deep Dive
+
+> 👇 **Click any feature to open it.** Each one is short and ends with an honest note on what it is and isn't.
 
 <details>
-<summary><b>📅 1. Monthly Financial Memory</b></summary>
+<summary><b>📅 1. Monthly Financial Memory</b> · <i>your story, month by month</i></summary>
 <br>
 
-Your financial story, month by month (Jan → Dec).
-
 - Each month stores **income, expenses, EMI, savings and investments**
-- Users add only the new month; earlier months are **retained, never overwritten**
+- Add only the new month; earlier months are **retained, never overwritten**
 - History powers trends, KPIs, forecasts and recommendations
 - Forecasts use **linear regression** on saved history
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':40,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart LR
+    M["Add new month"] --> H["History retained"]
+    H --> T["Trends and KPIs"]
+    H --> F["Forecast"]
+    classDef a fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    class M,H,T,F a
+```
 
 </details>
 
 <details>
-<summary><b>💯 2. Financial Health Dashboard</b></summary>
+<summary><b>💯 2. Financial Health Dashboard</b> · <i>a 100-point score</i></summary>
 <br>
 
-A 100-point **Health Score** built from user-entered data.
-
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','pieTitleTextSize':'20px','pieSectionTextSize':'16px','pieLegendTextSize':'16px','pie1':'#7c3aed','pie2':'#0891b2','pie3':'#16a34a','pie4':'#db2777','pieSectionTextColor':'#ffffff','pieStrokeColor':'#0f0f2b','pieStrokeWidth':'2px'}}}%%
 pie showData title Health Score Weights (100 points)
     "Savings rate" : 35
     "Low DTI" : 25
@@ -201,80 +244,102 @@ pie showData title Health Score Weights (100 points)
     "Investments" : 15
 ```
 
-**9 KPIs:** Health Score · Income · Expenses · DTI · Savings · Savings Rate · Investments · Outstanding Loans · Net Worth (plus Digital Adoption)
+**10 KPIs:** Health Score · Income · Expenses · DTI · Savings · Savings Rate · Investments · Outstanding Loans · Net Worth · Digital Adoption
 
 </details>
 
 <details>
-<summary><b>🧬 3. Financial DNA & Digital Twin</b></summary>
+<summary><b>🧬 3. Financial DNA and Digital Twin</b> · <i>a profile, not isolated metrics</i></summary>
 <br>
 
-A multidimensional profile instead of isolated metrics.
-
 - Six dimensions: **Saver · Investor · Borrower · Digital User · Protector · Planner**
-- **Risk appetite** per customer: Conservative / Moderate / Aggressive
-- **Digital adoption gaps** flagged across UPI, Mobile Banking and Internet Banking
+- **Risk appetite:** Conservative / Moderate / Aggressive
+- **Digital adoption gaps** across UPI, Mobile Banking and Internet Banking
 - Searchable in the Customer Hub by name, ID or city
 
 </details>
 
 <details>
-<summary><b>🤖 4. AI Council: 14 agents, one synthesis</b></summary>
+<summary><b>🤖 4. AI Council</b> · <i>14 agents, one synthesis</i></summary>
 <br>
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':25,'rankSpacing':50,'padding':20,'wrappingWidth':260}}}%%
 flowchart TB
-    subgraph Agents
-    direction LR
-    a1[Financial Analyst]
-    a2[Risk]
-    a3[Investment]
-    a4[Loan]
-    a5[Engagement]
-    a6[Digital Adoption]
-    a7[Behavior]
-    a8[Insurance]
-    a9[Fraud]
-    a10[Life Event]
-    a11[Wellness]
-    a12[Recommendation]
-    a13[Next Best Action]
-    a14[Product Recommendation]
+    subgraph G1["💰 Financial"]
+        direction TB
+        a1["Financial Analyst"]
+        a2["Risk"]
+        a3["Investment"]
+        a4["Loan"]
     end
-    Agents --> S{{Council Synthesis}}
-    S --> o1[Overall Health]
-    S --> o2[Biggest Opportunity]
-    S --> o3[Biggest Risk]
-    S --> o4[Next Action]
+    subgraph G2["🙂 Customer"]
+        direction TB
+        a5["Engagement"]
+        a6["Digital Adoption"]
+        a7["Behavior"]
+        a8["Wellness"]
+    end
+    subgraph G3["🛡️ Protection"]
+        direction TB
+        a9["Insurance"]
+        a10["Fraud"]
+        a11["Life Event"]
+    end
+    subgraph G4["🎯 Action"]
+        direction TB
+        a12["Recommendation"]
+        a13["Next Best Action"]
+        a14["Product"]
+    end
+    G1 --> S
+    G2 --> S
+    G3 --> S
+    G4 --> S
+    S(["<b>COUNCIL SYNTHESIS</b>"])
+    S --> R["Overall Health · Biggest Opportunity<br/>Biggest Risk · Next Action"]
+    classDef agent fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    classDef core fill:#0e4a5c,stroke:#67e8f9,stroke-width:2px,color:#ffffff
+    classDef out fill:#082f3a,stroke:#22d3ee,stroke-width:2px,color:#ecfeff
+    class a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14 agent
+    class S core
+    class R out
 ```
 
 Each agent returns **Status · Recommendation · Confidence · Reason**.
 
-> Rule-based logic and heuristics only. It does not expose hidden chain-of-thought or claim autonomous LLM reasoning.
+> Rule-based logic and heuristics only. No hidden chain-of-thought, no claim of autonomous LLM reasoning.
 
 </details>
 
 <details>
-<summary><b>📱 5. Digital Adoption Intelligence</b></summary>
+<summary><b>📱 5. Digital Adoption Intelligence</b> · <i>SBI GFF Theme 2</i></summary>
 <br>
 
-Tied directly to SBI GFF Theme 2.
-
-- **Digital Adoption Score (0–100)** from UPI, mobile banking and internet banking usage
+- **Digital Adoption Score (0–100)** from UPI, mobile and internet banking usage
 - **Gaps** from missing or low usage
 - **30-Day Action Plan**, **Personalized Nudges**, **Potential Next Products**
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':30,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart LR
+    U["<b>Usage</b><br/>UPI · Mobile · Internet"] --> S["<b>Score</b><br/>0 to 100"] --> G["<b>Gaps</b>"]
+    G --> P["30-Day Plan"]
+    G --> N["Nudges"]
+    G --> X["Next Products"]
+    classDef a fill:#082f3a,stroke:#22d3ee,stroke-width:2px,color:#ecfeff
+    class U,S,G,P,N,X a
+```
 
 > *Don't just measure adoption. Identify the next digital action.*
 
 </details>
 
 <details>
-<summary><b>🎉 6. Life Events & Next-Best-Action</b></summary>
+<summary><b>🎉 6. Life Events and Next-Best-Action</b> · <i>signals, not certainties</i></summary>
 <br>
 
 **Signals:** Salary Hike · New Job · Marriage · Home Purchase · Travel · Education · Retirement Readiness
-
-`Financial change + stated goal` → `Signal detection` → `Estimated life event` → `Relevant action`
 
 | Signal | Suggested action |
 |---|---|
@@ -287,33 +352,36 @@ Tied directly to SBI GFF Theme 2.
 </details>
 
 <details>
-<summary><b>💬 7. AI Chatbot, Voice & Financial Coach</b></summary>
+<summary><b>💬 7. AI Chatbot, Voice and Financial Coach</b> · <i>English · हिंदी · தமிழ்</i></summary>
 <br>
 
-- **Languages:** English · हिंदी · தமிழ்
 - **Voice** input and spoken replies (browser Web Speech API)
 - **Works offline** because it is rule-based
 - Every answer has four parts:
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':30,'rankSpacing':40,'padding':20,'wrappingWidth':260}}}%%
 flowchart LR
-    Q[❓ Your question] --> E[1 Explanation] --> C[2 Calculation] --> R[3 Recommendation] --> A[4 Action Plan]
+    Q["Your question"] --> E["1. Explanation"] --> C["2. Calculation"] --> R["3. Recommendation"] --> A["4. Action Plan"]
+    classDef a fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    classDef q fill:#3d1d08,stroke:#fb923c,stroke-width:2px,color:#fff1e6
+    class E,C,R,A a
+    class Q q
 ```
 
-Try: *"How can I save more?"* · *"Can I afford a ₹10 lakh car?"*
+**💭 Try asking:**
+*"How can I save more?"* · *"Can I afford a ₹10 lakh car?"*
 
 > A local rule-based assistant, not a connected LLM.
 
 </details>
 
 <details>
-<summary><b>🧪 8. Simulation Lab & Financial Planner</b></summary>
+<summary><b>🧪 8. Simulation Lab and Financial Planner</b> · <i>don't guess, simulate</i></summary>
 <br>
 
-*Don't guess. Simulate.*
-
 | Scenario | Extra SIP |
-|---|---|
+|:-:|---|
 | A | ₹0 / month |
 | B | ₹5,000 / month |
 | C | ₹10,000 / month |
@@ -322,11 +390,11 @@ Try: *"How can I save more?"* · *"Can I afford a ₹10 lakh car?"*
 - **Planner modules:** SIP Calculator · Wealth Forecast · Goal Planning · Retirement Simulator · Emergency Fund · Salary Hike Simulator
 
 <details>
-<summary>📈 Illustrative projection (₹ lakh, assumed 12% p.a.)</summary>
+<summary>📈 See an illustrative projection (₹ lakh, assumed 12% p.a.)</summary>
 <br>
 
 | Year | A: ₹0 | B: ₹5,000 | C: ₹10,000 |
-|---|---|---|---|
+|:-:|:-:|:-:|:-:|
 | 0 | 0.0 | 0.0 | 0.0 |
 | 2 | 0.0 | 1.4 | 2.7 |
 | 4 | 0.0 | 3.1 | 6.2 |
@@ -341,34 +409,51 @@ Try: *"How can I save more?"* · *"Can I afford a ₹10 lakh car?"*
 </details>
 
 <details>
-<summary><b>🛡️ 9. Scam Protection</b></summary>
+<summary><b>🛡️ 9. Scam Protection</b> · <i>paste a message, get a risk level</i></summary>
 <br>
 
-Pattern-based scan of a pasted message for: **OTP requests · Urgency · Prize offers · Suspicious links · Remote-access apps**
+Pattern-based scan for: **OTP requests · Urgency · Prize offers · Suspicious links · Remote-access apps**
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':30,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart LR
+    M["Pasted message"] --> P["Pattern scan"]
+    P --> L["🟢 Low"]
+    P --> Md["🟡 Medium"]
+    P --> H["🔴 High"]
+    classDef n fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    classDef low fill:#0b3a22,stroke:#4ade80,stroke-width:2px,color:#f0fff4
+    classDef mid fill:#3d3208,stroke:#facc15,stroke-width:2px,color:#fffbe6
+    classDef high fill:#3b0d24,stroke:#f472b6,stroke-width:2px,color:#ffe4f0
+    class M,P n
+    class L low
+    class Md mid
+    class H high
+```
 
 **Output:** risk level + explanation. Pattern matching, not a guarantee.
 
 </details>
 
 <details>
-<summary><b>📷 10. Camera Banking</b></summary>
+<summary><b>📷 10. Camera Banking</b> · <i>document checks in your browser</i></summary>
 <br>
 
-In-browser document photo checks: **brightness · sharpness · document coverage · best-effort OCR** (Tesseract.js, needs an online library).
+Checks **brightness · sharpness · document coverage**, plus best-effort OCR (Tesseract.js, needs an online library).
 
-🔐 **Privacy:** PAN / Aadhaar numbers are always masked (`XXXX XXXX 2346`). The complete number and image are not stored.
+🔐 **Privacy:** PAN and Aadhaar numbers are always masked (`XXXX XXXX 2346`). The complete number and image are not stored.
 
 </details>
 
 <details>
-<summary><b>🏦 11. Bank Manager & Executive Intelligence</b></summary>
+<summary><b>🏦 11. Bank Manager and Executive Intelligence</b> · <i>the institutional view</i></summary>
 <br>
 
 | Manager Dashboard | Executive Intelligence |
 |---|---|
 | City-wise digital adoption heatmap | SIP adoption prediction |
 | Low-adoption finder | Insurance adoption prediction |
-| High-value finder | Investment / insurance opportunities |
+| High-value finder | Investment and insurance opportunities |
 | K-means segmentation (3+ accounts) | Revenue opportunity estimate |
 | | Fraud monitoring · Campaign tracking |
 
@@ -381,6 +466,20 @@ In-browser document photo checks: **brightness · sharpness · document coverage
 ## 🛠️ Technology Stack
 
 **Runs entirely in the browser.**
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':30,'rankSpacing':45,'padding':20,'wrappingWidth':260}}}%%
+flowchart TB
+    B(["<b>Single HTML file</b><br/>in your browser"])
+    B --> U["<b>UI</b><br/>HTML · CSS · JS<br/>SVG · Three.js"]
+    B --> L["<b>Logic</b><br/>Rules · Regression<br/>K-Means"]
+    B --> A["<b>Browser APIs</b><br/>Speech · jsPDF<br/>Tesseract.js"]
+    B --> S["<b>Storage</b><br/>Browser-local"]
+    classDef core fill:#0e4a5c,stroke:#67e8f9,stroke-width:2px,color:#ffffff
+    classDef n fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    class B core
+    class U,L,A,S n
+```
 
 | Layer | Technology |
 |---|---|
@@ -395,31 +494,35 @@ In-browser document photo checks: **brightness · sharpness · document coverage
 | Prediction | Fixed-weight logistic score (heuristic) |
 | Chatbot | Local rule-based assistant |
 
+### 📐 Formulas used
+
 <details>
-<summary><b>📐 Formulas used</b></summary>
+<summary><b>Open the formulas</b></summary>
 <br>
 
 ```text
-Savings Rate = (Income − Expenses) ÷ Income × 100
-DTI          = Total Monthly EMI ÷ Monthly Income × 100
-Net Worth    = Cash + Investments − Loans
-EMI          = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)
+Savings Rate = (Income - Expenses) / Income x 100
+DTI          = Total Monthly EMI / Monthly Income x 100
+Net Worth    = Cash + Investments - Loans
+EMI          = P x r x (1 + r)^n / ((1 + r)^n - 1)
 ```
 
 </details>
 
+### ⚠️ Current limitations
+
 <details>
-<summary><b>⚠️ Current limitations (stated up front)</b></summary>
+<summary><b>Stated up front (click to read)</b></summary>
 <br>
 
-- No backend / database; data is browser-local
+- No backend or database; data is browser-local
 - No production banking integration
-- Loan / credit outputs are simulations
+- Loan and credit outputs are simulations
 - Life-event outputs are estimates
 - Propensity models are not trained on real outcomes
 - Chatbot is rule-based, not an LLM
 - OCR is best-effort and needs an online library
-- Manager / Executive views cover same-browser accounts only
+- Manager and Executive views cover same-browser accounts only
 - Some features remain future scope
 
 *Technical honesty is a design choice.*
@@ -430,16 +533,35 @@ EMI          = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)
 
 ## 🚀 Roadmap: MANSHORA 2.0
 
-*Future scope only. Nothing here is implemented today.*
+*Future scope only. Nothing below the first step is implemented today.*
 
 ```mermaid
-flowchart LR
-    P1["<b>Phase 1 · Foundation</b><br/>Node.js backend<br/>Secure database<br/>Authentication<br/>Server-side security"]
-    P2["<b>Phase 2 · Intelligence</b><br/>Secure LLM integration<br/>Trained propensity models<br/>Real outcome-based ML<br/>Advanced personalization"]
-    P3["<b>Phase 3 · Banking Integration</b><br/>Consent-based transaction data<br/>Secure banking APIs<br/>Real digital adoption signals<br/>Real-time insights"]
-    P4["<b>Phase 4 · Scale</b><br/>Enterprise deployment<br/>Advanced fraud intelligence<br/>Personalized journeys<br/>Responsible Agentic AI"]
-    P1 --> P2 --> P3 --> P4
+%%{init: {'theme':'base','themeVariables':{'fontSize':'16px','fontFamily':'Arial, Helvetica, sans-serif','lineColor':'#67e8f9'},'flowchart':{'htmlLabels':true,'nodeSpacing':30,'rankSpacing':40,'padding':20,'wrappingWidth':240}}}%%
+flowchart TB
+    P0["<b>TODAY</b><br/>Browser prototype, 14 modules"]
+    P1["<b>Phase 1: Foundation</b><br/>Backend, database, authentication"]
+    P2["<b>Phase 2: Intelligence</b><br/>Secure LLM, trained models"]
+    P3["<b>Phase 3: Banking Integration</b><br/>Consent-based data, secure APIs"]
+    P4["<b>Phase 4: Scale</b><br/>Enterprise, fraud intelligence"]
+    P0 --> P1 --> P2 --> P3 --> P4
+    classDef done fill:#14532d,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    classDef next fill:#1e1145,stroke:#a78bfa,stroke-width:2px,color:#f5f3ff
+    class P0 done
+    class P1,P2,P3,P4 next
 ```
+
+<details>
+<summary><b>🔎 See what's inside each phase</b></summary>
+<br>
+
+| Phase | What it adds |
+|---|---|
+| **1 · Foundation** | Node.js backend · Secure database · Authentication · Server-side security |
+| **2 · Intelligence** | Secure LLM integration · Trained propensity models · Real outcome-based ML · Advanced personalization |
+| **3 · Banking Integration** | Consent-based transaction data · Secure banking APIs · Real digital adoption signals · Real-time insights |
+| **4 · Scale** | Enterprise deployment · Advanced fraud intelligence · Personalized journeys · Responsible Agentic AI |
+
+</details>
 
 **Progress tracker**
 
@@ -457,6 +579,16 @@ flowchart LR
 |---|---|
 | 📓 **Prototype notebook** | [Open in Google Colab](https://colab.research.google.com/drive/1qdm39UOnB7qQUSCbRjnKjOZniCnCs9MQ#scrollTo=BgxUpgUyj1BP) |
 | 🌐 **Web app** | Single self-contained HTML file. Open it in any modern browser. |
+
+<details>
+<summary><b>▶️ How to run it (3 steps)</b></summary>
+<br>
+
+1. **Download** the single `.html` file
+2. **Double-click** it to open in Chrome, Edge, Firefox or Safari
+3. **Explore:** register a demo account, add a month of data, then try the Council, Chatbot and Simulation Lab
+
+</details>
 
 <!-- Add screenshots / demo GIF here -->
 
