@@ -71,6 +71,7 @@ flowchart LR
     classDef goal fill:#042f3a,stroke:#00fff7,stroke-width:3px,color:#ffffff
     class A,B,C,D step
     class E goal
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 <div align="right"><a href="#top">⬆ back to top</a></div>
@@ -141,6 +142,7 @@ flowchart LR
     classDef now fill:#042f3a,stroke:#00fff7,stroke-width:3px,color:#ffffff
     class h1,h2,h3,h4 hack
     class b1 now
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 > 🌱 We chose not to stop at the idea phase. The prototype became the foundation for a broader platform.
@@ -190,6 +192,7 @@ flowchart LR
     classDef answer fill:#042f3a,stroke:#00fff7,stroke-width:3px,color:#ffffff
     class C,B problem
     class M answer
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 <div align="right"><a href="#top">⬆ back to top</a></div>
@@ -204,10 +207,10 @@ flowchart LR
 %%{init: {'theme':'base','themeVariables':{'fontSize':'15px','fontFamily':'Arial, Helvetica, sans-serif','primaryColor':'#0b0b2a','primaryTextColor':'#ffffff','primaryBorderColor':'#b026ff','lineColor':'#00fff7','textColor':'#ffffff','edgeLabelBackground':'#0b0b2a'},'flowchart':{'htmlLabels':false,'nodeSpacing':30,'rankSpacing':45,'padding':18,'curve':'linear'}}}%%
 flowchart TB
     R(["MANSHORA<br/>Financial Intelligence"])
-    R --> U["UNDERSTAND<br/>──────────<br/>Customer Hub<br/>Financial Health<br/>Financial DNA"]
-    R --> E["ENGAGE<br/>──────────<br/>AI Chatbot<br/>Life Events<br/>Digital Adoption"]
-    R --> A["ACT AND PROTECT<br/>──────────<br/>Simulation Lab<br/>Planner<br/>Loan Advisor<br/>Scam Protection<br/>Camera Banking"]
-    R --> B["FOR BANKS<br/>──────────<br/>AI Council<br/>Manager Dashboard<br/>Executive Intelligence"]
+    R --> U["UNDERSTAND<br/>──────────────────────────<br/>Customer Hub<br/>Financial Health<br/>Financial DNA"]
+    R --> E["ENGAGE<br/>──────────────────────────<br/>AI Chatbot<br/>Life Events<br/>Digital Adoption"]
+    R --> A["ACT AND PROTECT<br/>──────────────────────────<br/>Simulation Lab<br/>Planner<br/>Loan Advisor<br/>Scam Protection<br/>Camera Banking"]
+    R --> B["FOR BANKS<br/>──────────────────────────<br/>AI Council<br/>Manager Dashboard<br/>Executive Intelligence"]
     classDef root fill:#1a0636,stroke:#ff2bd6,stroke-width:3px,color:#ffffff
     classDef und fill:#0b0b2a,stroke:#b026ff,stroke-width:3px,color:#ffffff
     classDef eng fill:#04202a,stroke:#00e5ff,stroke-width:3px,color:#ffffff
@@ -218,6 +221,7 @@ flowchart TB
     class E eng
     class A act
     class B bank
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 ---
@@ -251,6 +255,7 @@ flowchart TD
     class R,I,NP,CALC,SNAP,TREND step
     class Q,H decide
     class OUT out
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 ### 🗣️ Who talks to whom
@@ -302,6 +307,7 @@ flowchart LR
     classDef out fill:#04202a,stroke:#00e5ff,stroke-width:3px,color:#ecfeff
     class I,K flow
     class O out
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 *Transparency is a feature.*
@@ -333,6 +339,7 @@ flowchart LR
     H --> F["Forecast"]
     classDef a fill:#0b0b2a,stroke:#b026ff,stroke-width:3px,color:#f5f3ff
     class M,H,T,F a
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 </details>
@@ -368,6 +375,7 @@ flowchart LR
     classDef o fill:#042f3a,stroke:#00fff7,stroke-width:3px,color:#ffffff
     class SR,DT,EF,IV,SUM a
     class SC o
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 </details>
@@ -394,10 +402,10 @@ flowchart LR
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontSize':'15px','fontFamily':'Arial, Helvetica, sans-serif','primaryColor':'#0b0b2a','primaryTextColor':'#ffffff','primaryBorderColor':'#b026ff','lineColor':'#00fff7','textColor':'#ffffff','edgeLabelBackground':'#0b0b2a'},'flowchart':{'htmlLabels':false,'nodeSpacing':30,'rankSpacing':45,'padding':18,'curve':'linear'}}}%%
 flowchart TB
-    G1["FINANCIAL<br/>──────────<br/>Financial Analyst<br/>Risk<br/>Investment<br/>Loan"]
-    G2["CUSTOMER<br/>──────────<br/>Engagement<br/>Digital Adoption<br/>Behavior<br/>Wellness"]
-    G3["PROTECTION<br/>──────────<br/>Insurance<br/>Fraud<br/>Life Event"]
-    G4["ACTION<br/>──────────<br/>Recommendation<br/>Next Best Action<br/>Product"]
+    G1["FINANCIAL<br/>──────────────────────────<br/>Financial Analyst<br/>Risk<br/>Investment<br/>Loan"]
+    G2["CUSTOMER<br/>──────────────────────────<br/>Engagement<br/>Digital Adoption<br/>Behavior<br/>Wellness"]
+    G3["PROTECTION<br/>──────────────────────────<br/>Insurance<br/>Fraud<br/>Life Event"]
+    G4["ACTION<br/>──────────────────────────<br/>Recommendation<br/>Next Best Action<br/>Product"]
     G1 --> S
     G2 --> S
     G3 --> S
@@ -415,6 +423,7 @@ flowchart TB
     class G4 g4
     class S core
     class R out
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 Each agent returns **Status · Recommendation · Confidence · Reason**.
@@ -447,6 +456,7 @@ flowchart TD
     classDef d fill:#2b2600,stroke:#fff200,stroke-width:3px,color:#fffbe6
     class U,SC,GP,NX,P,N,X a
     class D d
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 > *Don't just measure adoption. Identify the next digital action.*
@@ -489,6 +499,7 @@ flowchart LR
     classDef q fill:#2b1500,stroke:#ff9500,stroke-width:3px,color:#fff1e6
     class E,C,R,A a
     class Q q
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 **💭 Try asking:** *"How can I save more?"* · *"Can I afford a ₹10 lakh car?"*
@@ -577,6 +588,7 @@ flowchart TD
     class Md mid
     class H high
     class X out
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 **Output:** risk level + explanation. Pattern matching, not a guarantee.
@@ -606,6 +618,7 @@ flowchart TD
     class C,R,O,M a
     class Q d
     class D ok
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 🔐 **Privacy:** PAN and Aadhaar numbers are always masked. The complete number and image are not stored.
@@ -652,6 +665,7 @@ flowchart TB
     classDef n fill:#0b0b2a,stroke:#b026ff,stroke-width:3px,color:#f5f3ff
     class B core
     class U,L,A,S n
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 | Layer | Technology |
@@ -744,6 +758,7 @@ flowchart TB
     classDef next fill:#0b0b2a,stroke:#b026ff,stroke-width:3px,color:#f5f3ff
     class P0 done
     class P1,P2,P3,P4 next
+    linkStyle default fill:none,stroke:#00fff7,stroke-width:2px
 ```
 
 <details>
