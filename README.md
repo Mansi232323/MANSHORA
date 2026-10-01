@@ -778,7 +778,7 @@ flowchart TB
 | Resource | Link |
 |---|---|
 | 📓 **Prototype notebook** | [Open in Google Colab](https://colab.research.google.com/drive/1qdm39UOnB7qQUSCbRjnKjOZniCnCs9MQ#scrollTo=BgxUpgUyj1BP) |
-| 🌐 **Web app** | Single self-contained HTML file. Open it in any modern browser. |
+| 🌐 **Web app** | [Open in web](https://mansi232323.github.io/MANSHORA/). |
 | 🎥 **Demo video** | [▶ Watch the demo video](https://drive.google.com/file/d/164uGluTXMwuVrQEpbuC8uUA5FMzwPKt6/view?usp=sharing) |
 <details>
 <summary><b>▶️ How to run it (3 steps)</b></summary>
