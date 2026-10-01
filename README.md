@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1200&color=7C3AED&center=true&vCenter=true&width=800&lines=MANSHORA;Insight+Engineered+for+Impact;Analyze.+Understand.+Predict.+Act." alt="MANSHORA typing banner" />
 
-### **From Financial Data to Intelligent Decisions**
+### **From Financial Data to Intelligent Decisions.**
 
 ![SBI x GFF 2026](https://img.shields.io/badge/SBI%20%C3%97%20GFF-2026-1d4ed8?style=for-the-badge)
 ![Theme](https://img.shields.io/badge/Theme%202-Digital%20Adoption-06b6d4?style=for-the-badge)
