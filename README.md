@@ -779,7 +779,7 @@ flowchart TB
 |---|---|
 | 📓 **Prototype notebook** | [Open in Google Colab](https://colab.research.google.com/drive/1qdm39UOnB7qQUSCbRjnKjOZniCnCs9MQ#scrollTo=BgxUpgUyj1BP) |
 | 🌐 **Web app** | Single self-contained HTML file. Open it in any modern browser. |
-
+| 📹 **Video**  | https://github.com/user-attachments/assets/(https://drive.google.com/file/d/164uGluTXMwuVrQEpbuC8uUA5FMzwPKt6/view?usp=sharing). |
 <details>
 <summary><b>▶️ How to run it (3 steps)</b></summary>
 <br>
