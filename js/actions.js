@@ -1,0 +1,18 @@
+/* ---- actions ---- */
+const A={tg:t=>t.classList.toggle('open'),bg:()=>$('#nv').classList.toggle('open'),
+sc:t=>{$('#nv')&&$('#nv').classList.remove('open');const e=document.getElementById(t.dataset.id);e&&e.scrollIntoView({behavior:'smooth'})},
+go:t=>{sel='';location.hash='#/'+t.dataset.to},out:()=>{LS.s('mz_s','');chat=[];location.hash='#/'},col:()=>{side=side?0:1;LS.s('mz_side',side);route()},
+yr:t=>{},pick:t=>{sel=t.dataset.k;yr=+sel.slice(0,4);route()},
+savem:()=>{const u=me(),g=i=>$('#m_'+i).value,k=g('k'),F=['inc','oi','exp','oe','emi','sav','inv'],r={};for(const f of F){const v=g(f)===''?0:+g(f);if(isNaN(v)||v<0)return $('#er').textContent='Enter zero or positive numbers only.';r[f]=v}if(!(r.inc>0))return $('#er').textContent='Income is required.';u.rec[k]=r;save();sel=k;toast('Month saved');route()},
+delm:t=>{if(confirm('Delete this month? This cannot be undone.')){delete me().rec[t.dataset.k];sel='';save();toast('Month deleted');route()}},
+nba:()=>{const c=userC(me()),o=council(c);$('#nba').innerHTML='Analyzing financial profile...';setTimeout(()=>{$('#nba').innerHTML=`<b>${o.n}</b><br>Opportunity: ${o.o}<br>Risk: ${o.r}`},700)},
+cn:t=>{const c=userC(me()),el=$('#cn'),st=['Analyzing financial profile...','Evaluating spending...','Checking savings patterns...','Generating insights...'];let i=0;el.innerHTML='<p class="mu">'+st[0]+'</p>';const iv=setInterval(()=>{i++;if(i<st.length)el.innerHTML='<p class="mu">'+st[i]+'</p>';else{clearInterval(iv);const o=council(c);el.innerHTML=`<div class="grid">${agents2(c).map(a=>`<div class="card ag ${a[1]}"><b>${a[0]}</b> <span class="mu">· ${a[1]=='ok'?'Healthy':a[1]=='warn'?'Watch':'Alert'} · ${a[3]}% confidence</span><br>${a[2]}<div class="mu" style="font-size:12px">${a[4]}</div></div>`).join('')}</div><div class="card" style="margin-top:14px"><h3>Council synthesis</h3>Overall health: <b>${o.h}</b><br>Major opportunity: ${o.o}<br>Major risk: ${o.r}<br>Recommended action: <b>${o.n}</b></div>`}},450)},
+ask:t=>{const q=t.dataset.q||$('#cq').value.trim();if(!q)return toast('Type a question first','bad');chat.push({u:1,t:q});chat.push({t:bot(q)});route();const ch=$('#ch');ch&&(ch.scrollTop=ch.scrollHeight)},
+mf:t=>{MG[t.dataset.k]=t.value;route()},mfc:()=>{MG={city:'',seg:'',risk:''};route()},twinof:t=>{sel=t.dataset.id;location.hash='#/app/twin'}};
+document.addEventListener('click',e=>{const t=e.target.closest('[data-a]');if(t&&t.tagName!='SELECT'&&A[t.dataset.a])A[t.dataset.a](t,e)});
+document.addEventListener('change',e=>{const t=e.target;if(t.dataset&&t.dataset.a=='mf')A.mf(t);if(t.dataset&&t.dataset.a=='yr'){yr=+t.value||yr;route()}});
+document.addEventListener('input',e=>{if(e.target.closest('#sim'))simCalc();if(e.target.closest('#loanf'))loanCalc()});
+document.addEventListener('keydown',e=>{if(e.key=='Enter'&&e.target.id=='cq')A.ask({dataset:{}})});
+function route(){const h=location.hash.replace('#/','');const bb=$('#bot');if(bb&&!h.startsWith('app'))bb.style.display='none';try{if(h.startsWith('app')){const u=me();if(!u)return location.hash='#/login';shell(u,h.split('/')[1]||'dashboard')}else if(h=='login'||h=='signup')authView(h);else{landing();hero3d()}}catch(e){$('#app').innerHTML='<div class="form"><h2>Something went wrong</h2><button class="btn" onclick="location.hash=\'#/\';location.reload()">Reload</button></div>'}}
+addEventListener('hashchange',()=>{route();window.scrollTo(0,0)});
+addEventListener('scroll',()=>{if(location.hash.replace('#/','')!=='')return;let cur='home';['home','about','products','solutions','resources'].forEach(id=>{const e=document.getElementById(id);if(e&&e.getBoundingClientRect().top<120)cur=id});document.querySelectorAll('#nv a[data-id]').forEach(a=>a.classList.toggle('on',a.dataset.id==cur))},{passive:true});
