@@ -863,6 +863,6 @@ MANSHORA provides **educational and simulated financial insights**. Recommendati
 
 **MANSHORA · Insight Engineered for Impact**
 
-<a href="#top">⬆ Back to top</a>
+<a href="#top">⬆ Back to top.</a>
 
 </div>
