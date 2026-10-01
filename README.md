@@ -859,10 +859,10 @@ MANSHORA provides **educational and simulated financial insights**. Recommendati
 
 **Mansi Kushwaha** × **Sheetal**
 
-*Analyze. Understand. Predict. Act.*
+*Analyze. Understand. Predict. Act. Visualize.*
 
 **MANSHORA · Insight Engineered for Impact**
 
-<a href="#top">⬆ Back to top.</a>
+<a href="#top">⬆ Back to top</a>
 
 </div>
